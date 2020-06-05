@@ -1,0 +1,1737 @@
+.fa-gray {
+    margin: 0 2px;
+    color: #9c9c9c;
+}
+
+.gray {
+    color: #c3c3c3;
+    cursor: pointer;
+}
+
+.fa-orange {
+    margin: 2px;
+    color: #f40;
+}
+
+.vertical-line {
+    float: left;
+    margin: 0 5px;
+    color: #ccc;
+}
+
+.a-float {
+    float: left;
+}
+
+.a-float-left {
+    float: left;
+    margin: 0 3px;
+}
+
+.fa-loc {
+    float: right;
+    margin: 10px 3px 0 0;
+    color: white;
+}
+
+.backColor {
+    background: #f1f1f1;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.color1 {
+    color: #e2e2e2;
+}
+
+
+/*nav响应事件*/
+
+.nav-hover {
+    border-right: 1px solid #eee;
+    border-left: 1px solid #eee;
+    background: #fff;
+}
+
+
+/*向下的小箭头*/
+
+.down-icon {
+    display: inline-block;
+    width: 12px;
+    height: 8px;
+    background: url(../img/arrow.png) no-repeat center center;
+}
+
+
+
+
+/*淘宝顶部栏*/
+
+.taobao_topnav {
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+    width: 100%;
+    height: 35px;
+    border-bottom: 1px solid #eee;
+    background-color: #f5f5f5;
+}
+
+.topnav_box {
+    width: 1190px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+
+/* 淘宝顶部栏左边 */
+
+.top_leftnav {
+    position: relative;
+    float: left;
+    width: 30%;
+    height: 100%;
+    line-height: 35px;
+}
+
+.region,
+.user-name,
+.user-name-news,
+.modo-taobao {
+    float: left;
+    height: 35px;
+    padding: 0 4px;
+    line-height: 35px;
+    border-right: 1px solid #f5f5f5;
+    border-left: 1px solid #f5f5f5;
+}
+
+.region:hover,
+.user-name:hover,
+.user-name-news:hover {
+    border-right: 1px solid #eee;
+    border-left: 1px solid #eee;
+    background: #fff;
+}
+
+.user-name {
+    text-align: center;
+}
+
+
+/* 用户下拉盒子 */
+
+.user-box {
+    position: absolute;
+    z-index: 99999;
+    left: 73px;
+    top: 35px;
+    display: none;
+    width: 265.6px;
+    height: 170px;
+    border: 1px solid #eee;
+    border-top: none;
+    overflow: hidden;
+    background: #fff;
+}
+
+.user-box {
+    height: 121.6px;
+}
+
+
+/*用户下拉栏的的盒子样式*/
+
+.my-head {
+    width: 56px;
+    height: 56px;
+    border-radius: 32px;
+    float: left;
+    margin: 22px 0px 0px 22px;
+}
+
+.my-grow {
+    float: right;
+    width: 160px;
+    height: 85px;
+    margin: 5px 10px 0 0;
+}
+
+.my-btn {
+    width: 248px;
+    height: 24px;
+    background: #FFF0E8;
+    margin-top: 92px;
+    margin-left: 9px;
+    text-align: center;
+    line-height: 24px;
+}
+
+.my-btn a {
+    display: block;
+}
+
+
+/* 地区的下拉盒子 */
+
+.region-box {
+    position: absolute;
+    z-index: 99999;
+    left: 0px;
+    top: 35px;
+    display: none;
+    width: 265.6px;
+    height: 287.6px;
+    border: 1px solid #eee;
+    border-top: none;
+    overflow: scroll;
+    background: #fff;
+}
+
+.region-box-ul li {
+    line-height: 29px;
+}
+
+.region-box-ul a {
+    padding-left: 10px;
+    display: block;
+}
+
+.region-box-ul a:hover {
+    background: #f4f4f4;
+}
+
+
+/* 消息部分的下拉盒子 */
+
+.msg-box {
+    position: absolute;
+    z-index: 99999;
+    left: 184px;
+    top: 35px;
+    display: none;
+    width: 288px;
+    height: 194.6px;
+    border: 1px solid #eee;
+    border-top: none;
+    overflow: hidden;
+    background: #fff;
+}
+
+.msg-box h1 {
+    height: 37px;
+    width: 100%;
+    font-size: 14px;
+    text-align: center;
+}
+
+.msg-box h1 a {
+    float: right;
+    margin: 13px 13px 0px 0px;
+}
+
+.msg-logistics {
+    height: 123px;
+    width: 100%;
+}
+
+.msg-logistics:hover {
+    background: #F7F7F7;
+}
+
+.mag-logistics-text {
+    height: 41px;
+    width: 100%;
+}
+
+
+/* 淘宝顶部栏右边盒子 */
+
+
+/* 我的淘宝 */
+
+.top_rightnav {
+    position: relative;
+    float: right;
+    height: 100%;
+    line-height: 35px;
+}
+
+.my-taobao-box {
+    position: absolute;
+    z-index: 99999;
+    left: 0;
+    top: 35px;
+    display: none;
+    width: 83.6px;
+    height: 73.6px;
+    border: 1px solid #eee;
+    border-top: none;
+    overflow: hidden;
+    background: #fff;
+}
+
+.my-taobao-box a {
+    line-height: 28px;
+    display: block;
+    padding-left: 5px;
+}
+
+.my-taobao-box a:hover {
+    background: #F7F7F7;
+}
+
+
+/* 购物车 */
+
+.shopping-box {
+    position: absolute;
+    z-index: 99999;
+    left: 73.59px;
+    top: 35px;
+    display: none;
+    width: 313.6px;
+    height: 57.6px;
+    line-height: 57.6px;
+    border: 1px solid #eee;
+    border-top: none;
+    overflow: hidden;
+    background: #fff;
+}
+
+.shopping-box a {
+    display: inline-block;
+    height: 25px;
+    width: 104px;
+    line-height: 25px;
+    text-align: center;
+    color: #ffffff;
+    background: #FF4400;
+    border-radius: 2px;
+}
+
+.shopping-box a:hover {
+    color: #ffffff;
+}
+
+
+/* 收藏夹 */
+
+.get-box {
+    position: absolute;
+    z-index: 99999;
+    left: 162px;
+    top: 35px;
+    display: none;
+    width: 71.6px;
+    height: 73.6px;
+    line-height: 28px;
+    border: 1px solid #eee;
+    border-top: none;
+    overflow: hidden;
+    background: #fff;
+}
+
+.get-box a {
+    display: inline-block;
+    height: 28px;
+    width: 100%;
+    line-height: 25px;
+    text-align: center;
+}
+
+.get-box a:hover {
+    background: #F7F7F7;
+}
+
+
+/* 千牛卖家中心的下拉栏 */
+
+.center-box {
+    position: absolute;
+    z-index: 99999;
+    left: 313px;
+    top: 35px;
+    display: none;
+    width: 83.6px;
+    height: 223.6px;
+    line-height: 28px;
+    border: 1px solid #eee;
+    border-top: none;
+    overflow: hidden;
+    background: #fff;
+}
+
+.center-box a {
+    display: inline-block;
+    height: 28px;
+    width: 100%;
+    line-height: 25px;
+}
+
+.center-box a:hover {
+    background: #F7F7F7;
+}
+
+
+/* 消费者客服 */
+
+.custom-box {
+    position: absolute;
+    z-index: 99999;
+    left: 410px;
+    top: 35px;
+    display: none;
+    width: 71.6px;
+    height: 73.6px;
+    border: 1px solid #eee;
+    border-top: none;
+    overflow: hidden;
+    background: #fff;
+}
+
+.custom-box a {
+    display: block;
+    height: 28px;
+    line-height: 28px;
+}
+
+.custom-box a:hover {
+    background: #F7F7F7;
+}
+
+
+/* 网站导航盒子 */
+
+.nav-box {
+    position: absolute;
+    z-index: 99999;
+    left: -614px;
+    top: 35px;
+    display: none;
+    width: 1188px;
+    height: 324px;
+    border: 1px solid #eee;
+    border-top: none;
+    overflow: hidden;
+    background: #fff;
+}
+
+.sub-nav {
+    position: relative;
+    margin: 6px auto;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+/* 市场部分 */
+
+.sub-nav-cell {
+    float: left;
+    width: 284px;
+    padding-left: 12px;
+    height: 100%;
+    border-right: 1px solid #eee;
+}
+
+.sub-nav-cell:last-child {
+    border-right: none;
+}
+
+.sub-nav-cell>h3 {
+    margin-bottom: 3px;
+    font-size: 17px;
+}
+
+.orange {
+    color: #f40;
+}
+
+.green {
+    color: #9fb838;
+}
+
+.red {
+    color: #db69a2;
+}
+
+.blue {
+    color: #2e9fdb;
+}
+
+.sub-nav-box li {
+    display: inline-block;
+    margin: 0px 4px 0 4px;
+    height: 25px;
+    line-height: 25px;
+    width: 58px;
+}
+
+.sub-nav-box-1 li {
+    width: 80px;
+    margin: 0px 20px;
+}
+
+.sub-nav-box a {
+    display: inline-block;
+    height: 25px;
+    text-align: center;
+    padding: 0 8px;
+}
+
+.sub-nav-box a:hover {
+    border-radius: 4px;
+    background: #f40;
+    color: #fff;
+}
+
+.sp a:hover {
+    background: #a0b959;
+}
+
+.now a:hover {
+    background: #df61ab;
+}
+
+.more a:hover {
+    background: #55a0e5;
+}
+
+
+/* 淘宝顶部logo框架栏 */
+
+.taobao_toplogonav {
+    position: relative;
+    z-index: 4;
+    top: 35px;
+    width: 100%;
+    height: 100px;
+    background: pink;
+}
+
+.taobao_toplogo {
+    width: 1190px;
+    height: 100px;
+    margin: auto;
+}
+
+.taobao_logo1 {
+    display: inline-block;
+    width: 105px;
+    text-align: center;
+}
+
+.taobao_logo1-a {
+    display: inline-block;
+    height: 100px;
+    line-height: 100px;
+    width: 105px;
+}
+
+
+/* 淘宝顶部logo框架栏右边 */
+
+.taobao_logo2-5 {
+    height: 100px;
+    width: 1085px;
+    float: right;
+}
+
+.taobao_logo2-a {
+    display: inline-block;
+    margin-top: 12.5px;
+    width: 209px;
+    height: 75px;
+    background-image: url(../img/logo2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.taobao_logo3-a {
+    display: inline-block;
+    margin-top: 12.5px;
+    width: 209px;
+    height: 75px;
+    margin-left: 5px;
+    background-image: url(../img/logo3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.taobao_logo4-a {
+    display: inline-block;
+    margin-top: 12.5px;
+    width: 209px;
+    height: 75px;
+    margin-left: 5px;
+    background-image: url(../img/logo4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.taobao_logo5-a {
+    display: inline-block;
+    margin-top: 12.5px;
+    width: 209px;
+    height: 75px;
+    margin-left: 5px;
+    background-image: url(../img/logo5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.taobao_logo6-a {
+    display: inline-block;
+    margin-top: 12.5px;
+    width: 209px;
+    height: 75px;
+    margin-left: 5px;
+    background-image: url(../img/logo6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.taobao_logo2-5 a p {
+    display: inline-block;
+    font-family: "宋体";
+    color: #fff;
+    font-size: 21.5px;
+    padding: 2px;
+}
+
+.taobao_logo2-5 a span {
+    display: inline-block;
+    font-family: "宋体";
+    color: #fff;
+    font-size: 15px;
+    padding: 2px;
+}
+
+
+/* 搜索栏 */
+
+.top_main {
+    margin-top: 70px;
+    width: 100%;
+    height: 130px;
+}
+
+.top_main_logo {
+    margin: 0 auto;
+    height: 88px;
+    width: 1190px;
+}
+
+.search-wrapper {
+    float: left;
+    margin-left: 55px;
+    height: 87px;
+    width: 640px;
+}
+
+
+/*搜索框选项卡*/
+
+#head {
+    margin-left: 20px;
+    width: 613px;
+    height: 22px;
+}
+
+#head ul {
+    padding: 0;
+    margin: 0;
+}
+
+#head ul li {
+    list-style: none;
+    float: left;
+    text-decoration: none;
+    display: block;
+    width: 36px;
+    position: relative;
+}
+
+
+/*选项卡1样式*/
+
+#head li:hover a {
+    background: #FFEEE5;
+}
+
+.head-id-a-text {
+    position: relative;
+    z-index: 10;
+    display: inline-block;
+    border-radius: 6px 6px 0px 0px;
+    line-height: 22px;
+    text-align: center;
+    width: 36px;
+    height: 22px;
+    color: white;
+    background: pink;
+    margin-top: -26px;
+}
+
+.head-id-a-text:hover {
+    color: white;
+}
+
+#head li {
+    margin-left: 5px;
+}
+
+#L1 a,
+#L2 a,
+#L3 a {
+    display: inline-block;
+    border-radius: 6px 6px 0px 0px;
+    line-height: 22px;
+    text-align: center;
+    width: 36px;
+    height: 22px;
+    color: pink;
+}
+
+.title_color {
+    background: pink;
+    color: #fff;
+}
+
+#d1 {
+    display: block;
+}
+
+#d1 a,
+#d2 a,
+#d3 a {
+    display: inline-block;
+    float: left;
+    padding: 4px 0px 0px 3px;
+    font-size: 12px;
+}
+
+.search-d1-in {
+    float: left;
+    height: 36px;
+    width: 554px;
+    border-top: 2px solid pink;
+    border-left: 2px solid pink;
+    border-bottom: 2px solid pink;
+    border-right: none;
+    border-radius: 20px 0px 0px 20px;
+    text-indent: 1em;
+}
+
+.search-d1-but {
+    float: left;
+    height: 42px;
+    width: 74px;
+    background: #db69a2;
+    border: 2px solid #db69a2;
+    border-radius: 0px 20px 20px 0px;
+    color: #FFF;
+    font-size: 18px;
+}
+
+#d2 {
+    display: none;
+}
+
+#d3 {
+    display: none;
+}
+
+
+/* 淘宝菜单nav栏 */
+
+.taobao-nav {
+    width: 100%;
+    height: 30px;
+}
+
+.taobao-nav {
+    width: 1190px;
+    height: 30px;
+    margin: 0 auto;
+}
+
+.taobao-nav h2 {
+    float: left;
+    font-family: "仿宋";
+    width: 190px;
+    height: 30px;
+    line-height: 30px;
+    background: #db69a2;
+    text-align: center;
+    color: #FFF;
+    font-size: 16px;
+}
+
+.taobao-nav-hd {
+    float: left;
+    width: 240px;
+    height: 30px;
+    line-height: 30px;
+    background:pink;
+    font-family: "楷体";
+    font-size: 16px;
+}
+
+.taobao-nav-hd a {
+    color: #fff;
+}
+
+.taobao-nav-hd a:hover {
+    color: #fff;
+}
+
+.taobao-nav-hd li {
+    font-size: 16px;
+    float: left;
+    color: #fff;
+    font-family: "楷体";
+    padding: 0px 10px 0px 10px;
+}
+
+.taobao-nav-dd {
+    float: left;
+    width: 220px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 15px;
+    font-family: "楷体";
+}
+
+.taobao-nav-dd li {
+    float: left;
+    color: #fff;
+    padding: 0px 10px 0px 10px;
+}
+
+.taobao-nav-dd li a {
+    color: #fff;
+}
+
+
+/* 淘宝中部及选项卡部分 */
+
+.content-top {
+    position: relative;
+    height: 540px;
+    width: 1190px;
+    margin: 0 auto;
+}
+
+.bg-left-1 {
+    height: 800px;
+    width: 360px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    left: -550px;
+    top: -195px;
+    z-index: -99999;
+    background-image: url(../img/bg-left-1.png);
+}
+
+.bg-right-1 {
+    height: 800px;
+    width: 360px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    right: -1190px;
+    top: -997px;
+    z-index: -99999;
+    background-image: url(../img/bg-left-1.png);
+}
+
+
+/* 商品分类选项卡 */
+
+.sidebar {
+    position: relative;
+    float: left;
+    width: 190px;
+    height: 540px;
+    box-shadow: 2px 2px 2px #e1e1e1;
+}
+
+.sidebar-info {
+    position: relative;
+    width: 100%;
+    height: 522px;
+}
+
+.sidebar-info h3 {
+    width: 93%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+    color: #707070;
+}
+
+.side-li {
+    position: relative;
+    z-index: 5000;
+    top: 10px;
+}
+
+.side-li span {
+    color: #767676;
+}
+
+.side-li>li {
+    text-indent: 1em;
+    width: 100%;
+    margin: auto;
+    height: 32px;
+    line-height: 32px;
+    font-size: 13px;
+}
+
+.side-li>li h3 {
+    color: #767676;
+}
+
+.side-li>li h3 a {
+    color: #767676;
+    cursor: pointer;
+    font-family: "宋体";
+}
+
+.side-li>li h3 a:hover {
+    color: red;
+}
+
+.side-li>li h3 a:hover {
+    text-decoration: underline;
+}
+
+.side-li>li:hover {
+    background: #FFE4Dc;
+}
+
+
+/* 商品分类选项卡a盒子 */
+
+.hiden-box {
+    position: absolute;
+    top: 2px;
+    z-index: 4888;
+    width: 710px;
+    height: 520px;
+    display: none;
+    border: 2px solid #db69a2;
+    overflow: hidden;
+    background: #fff;
+    left: 190px;
+    top: 0;
+}
+
+.hiden-box-left {
+    width: 415px;
+    height: 500px;
+    float: left;
+    background: #fff;
+    padding-left: 15px;
+    padding-right: 7px;
+}
+
+.hiden-box-left-block {
+    height: 144px;
+    width: 100%;
+}
+
+.hblb-head {
+    font-family: "宋体";
+    margin-top: 20px;
+    width: 100%;
+    line-height: 36px;
+    height: 36px;
+    border-bottom: 1px solid #e0e0e0;
+    overflow: hidden;
+}
+
+.hblb-head h4 {
+    float: left;
+    font-size: 16px;
+}
+
+.hblb-head>span {
+    float: right;
+    font-size: 12px;
+}
+
+.hblb-content {
+    height: 140px;
+    width: 100%;
+    margin-top: 5px;
+    color: #666;
+}
+
+.hblb-content>a {
+    display: inline-block;
+    padding: 6px;
+}
+
+
+/* 商品选择卡右边 */
+
+.hiden-box-right {
+    width: 270px;
+    height: 518px;
+    float: left;
+    border-left: 1px solid #f4f4f4;
+}
+
+.hiden-box-right-head {
+    font-size: 16px;
+    padding-top: 10px;
+    height: 40px;
+    line-height: 40px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    color: #999;
+}
+
+.hiden-box-right-content {
+    width: 100%;
+    height: 432px;
+}
+
+.hiden-box-right-content a {
+    display: inline-block;
+    padding: 10px;
+}
+
+
+/* 轮播图样式 */
+
+.show-box {
+    position: absolute;
+    top: 0;
+    left: 190px;
+    height: 540px;
+    width: 710px;
+}
+
+.show-box p.showBox-p strong {
+    color: #3c3c3c;
+    font-size: 14px;
+}
+
+.a-float10 {
+    float: left;
+    margin-left: 10px;
+}
+
+
+/* 图片轮播 */
+
+
+/*content*/
+
+.content,
+.content-down,
+.content-sub {
+    position: relative;
+    float: left;
+    width: 520px;
+    height: 280px;
+    overflow: hidden;
+}
+
+.content {
+    margin-bottom: 10px;
+}
+
+.content-down {
+    height: 248px;
+    border-top: 2px solid #c12c26;
+}
+
+.content-sub {
+    height: 222px;
+    width: 220px;
+}
+
+.imgBox,
+.imgBox1,
+.imgBox2 {
+    position: absolute;
+    clear: both;
+    width: 2600px;
+    list-style-type: none;
+}
+
+.imgBox2 {
+    width: 660px;
+}
+
+.imgBox>li,
+.imgBox1>li {
+    float: left;
+    width: 520px;
+}
+
+.imgBox2>li {
+    float: left;
+    width: 220px;
+}
+
+.imgBox a,
+.imgBox1 a,
+.imgBox2 a {
+    display: inline-block;
+}
+
+.control,
+.control1,
+.control2 {
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+    left: 0;
+    background: #000;
+    opacity: .3;
+    font-size: 20px;
+    text-align: center;
+    width: 20px;
+    height: 30px;
+    line-height: 30px;
+    display: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+.control2 {
+    width: 20px;
+    height: 20px;
+    margin-top: -10px;
+    left: 15px;
+    font-size: 20px;
+    line-height: 10px;
+}
+
+.control:hover,
+.control1:hover,
+.control2:hover {
+    opacity: .8;
+}
+
+.to-right,
+.to-right1 {
+    left: 480px;
+}
+
+.to-right2 {
+    left: 180px;
+}
+
+
+/*currentNum*/
+
+.currentNum,
+.currentNum-down,
+.currentNum-sub {
+    position: absolute;
+    top: 250px;
+    left: 50%;
+    margin-left: -33px;
+    width: 66px;
+    height: 10px;
+    overflow: hidden;
+}
+
+.currentNum-down {
+    top: 200px;
+}
+
+.currentNum-sub {
+    width: 40px;
+    margin-left: -20px;
+    top: 180px;
+}
+
+
+/*spanNum*/
+
+.imgNum,
+.imgNum1,
+.imgNum2 {
+    display: inline-block;
+    float: left;
+    width: 9px;
+    height: 9px;
+    margin-right: 4px;
+    border-radius: 5px;
+    background: #b7b7b7;
+    cursor: pointer;
+}
+
+.mark-color {
+    background: #f40;
+}
+
+.to-right,
+.to-right1 {
+    left: 500px;
+}
+
+.to-right2 {
+    left: 180px;
+}
+
+
+/* 轮播图1隔壁的图片 */
+
+.showBox-rbg1 {
+    display: inline-block;
+    height: 280px;
+    width: 160px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    background-image: url(../img/showBox-rbg1.jpg);
+}
+
+
+/* 天猫logo盒子 */
+
+.taobox-tmlg {
+    position: absolute;
+    top: 300px;
+    left: 10px;
+    line-height: 21px;
+    height: 21px;
+    width: 520px;
+    border-bottom: 3px solid red;
+}
+
+.taobox-tmlg>span {
+    color: red;
+    display: inline-block;
+    float: left;
+    margin-top: -1px;
+    margin-left: 10px;
+}
+
+
+/* 轮播图2右边的盒子 */
+
+.showbox-rgb2 {
+    height: 230px;
+    width: 160px;
+    float: right;
+    margin: 5px 10px 0px 0px;
+}
+
+.showbox-rgb2>span {
+    color: #A1A1A1;
+}
+
+
+/* 用户栏css样式 */
+
+.user-in {
+    width: 290px;
+    height: 540px;
+    float: right;
+}
+
+.user-in-top {
+    overflow: hidden;
+    width: 290px;
+    height: 166px;
+    margin-top: 10px;
+    background-image: url(../img/user-box-bg.png);
+    background-size: 290px 145px;
+    background-repeat: no-repeat;
+}
+
+.user-in-top-tx {
+    width: 290px;
+    height: 91px;
+    text-align: center;
+}
+
+.user-in-top-tx-a {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 32px;
+}
+
+.user-in-top-tx>h6 {
+    font-family: "宋体";
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+
+/* 金币 */
+
+.user-in-top-tx2 {
+    display: inline-block;
+    width: 102px;
+    margin-top: 3px;
+    height: 18px;
+    border-radius: 8px;
+    overflow: hidden;
+    line-height: 20px;
+    text-align: left;
+    background: pink;
+    color: #fff;
+}
+
+.user-in-top-tx2>img {
+    position: relative;
+    top: -572px;
+    float: left;
+}
+
+.user-in-top-tx3 {
+    display: inline-block;
+    width: 102px;
+    margin-top: 3px;
+    height: 18px;
+    border-radius: 8px;
+    overflow: hidden;
+    line-height: 20px;
+    text-align: left;
+    background: pink;
+    color: #fff;
+}
+
+.user-in-top-tx3>img {
+    position: relative;
+    top: -527px;
+    float: left;
+}
+
+
+/* 用户栏的待收货发货等 */
+
+.user-textbox {
+    text-align: center;
+}
+
+.user-textbox span {
+    font-size: 14px;
+    display: inline-block;
+    padding: 5px;
+    color: #db69a2;
+}
+
+.user-textbox>a {
+    font-size: 13px;
+    display: inline-block;
+    padding: 5px 10px 5px 10px;
+}
+
+.user-in-top-tx4 {
+    display: inline-block;
+    height: 26px;
+    line-height: 26px;
+    width: 290px;
+    text-align: center;
+    background: pink;
+    font-size: 12px;
+    color: c;
+}
+
+
+/* 公告栏 */
+
+.info-box {
+    width: 290px;
+    height: 98px;
+}
+
+
+/*公告栏标题*/
+
+.tab-nav {
+    width: 290px;
+    height: 27px;
+    list-style-type: none;
+    text-align: center;
+}
+
+.li-nav {
+    width: 56px;
+    height: 26px;
+    float: left;
+    line-height: 26px;
+    font-size: 12px;
+    color: #3c3c3c;
+    cursor: pointer;
+}
+
+.li-nav>a {
+    display: inline-block;
+    width: 32px;
+    height: 22px;
+}
+
+.li-nav-hover a,
+.li-nav:hover a {
+    border-bottom: 2px solid #db69a2;
+}
+
+.li-nav:last-child {
+    width: 61px;
+}
+
+.li-nav-hover,
+.li-nav:hover {
+    background: #fff;
+    color: #f40;
+}
+
+.li-border {
+    border-left: 1px solid #eee;
+}
+
+.li-hover {
+    border: 1px solid #ff5640;
+    border-bottom: 1px solid #fff;
+    background: #fff;
+    color: #ff5640;
+}
+
+.hiddenBox {
+    width: 264px;
+    height: 40px;
+    display: none;
+    border-top: 0;
+    padding: 8px 14px;
+    overflow: hidden;
+}
+
+.hiddenBox:first-of-type {
+    display: block;
+}
+
+.hiddenBox a {
+    line-height: 28px;
+    margin-right: 8px;
+}
+
+
+/* 用户栏充值等界面 */
+
+.user-Recharge {
+    height: 154px;
+    width: 298px;
+}
+
+.Recharge-nav {
+    height: 152px;
+    width: 296px;
+}
+
+.Recharge-lii a,
+.Recharge-li a {
+    padding-top: 10px;
+    display: inline-block;
+    width: 70px;
+    height: 76px;
+}
+
+.Recharge-lii span,
+.Recharge-li span {
+    display: inline-block;
+    overflow: hidden;
+    width: 24px;
+    height: 24px;
+}
+
+.Recharge-lii img,
+.Recharge-li img {
+    position: relative;
+}
+
+.Recharge-lii {
+    text-align: center;
+    width: 70px;
+    height: 76px;
+    float: left;
+    border: 1px solid #f4f4f4;
+    background: #fff;
+}
+
+.Recharge-li {
+    position: relative;
+    text-align: center;
+    width: 70px;
+    height: 76px;
+    float: left;
+    border: 1px solid #f4f4f4;
+    background: #fff;
+}
+
+.Recharge-li:hover {
+    position: relative;
+    z-index: 10000;
+    border: 1px solid red;
+    border-bottom: 1px solid transparent;
+}
+
+
+/* 充值界面等四个下拉栏 */
+
+.Recharge-box {
+    position: absolute;
+    position: 9999;
+    bottom: 29px;
+    width: 288px;
+    height: 159px;
+    display: none;
+    border: 1px solid red;
+    cursor: pointer;
+}
+
+.Recharge-box-hover {
+    border: 1px solid red;
+    border-bottom: 2px solid #fff;
+    z-index: 10;
+}
+
+.Recharge-off {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    float: right;
+}
+
+#Recharge-1 {
+    z-index: 2;
+    position: absolute;
+    background-image: url(../img/Recharge-bg1.png);
+    background-size: 288px 159px;
+}
+
+#Recharge-2 {
+    z-index: 2;
+    position: absolute;
+    background-image: url(../img/Recharge-bg2.png);
+    background-size: 288px 159px;
+}
+
+#Recharge-3 {
+    z-index: 2;
+    position: absolute;
+    background-image: url(../img/Recharge-bg3.png);
+    background-size: 288px 159px;
+}
+
+#Recharge-4 {
+    position: absolute;
+    z-index: 2;
+    background-image: url(../img/Recharge-bg4.png);
+    background-size: 288px 159px;
+}
+
+
+/*用户栏的二维码盒子*/
+
+.user-qrcode-box {
+    position: absolute;
+    z-index: 1;
+    width: 290px;
+    height: 100px;
+}
+
+.user-qrcode-box h3 {
+    height: 30px;
+    line-height: 30px;
+    width: 290px;
+}
+
+.user-qrcode-box h3>p {
+    display: inline-block;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.user-qrcode-box h3>a {
+    float: right;
+}
+
+
+/*二维码*/
+
+.user-qrcode {
+    width: 290px;
+    height: 70px;
+}
+
+.user-apps-box {
+    margin-top: 15px;
+    width: 290px;
+    height: 40px;
+}
+
+.user-apps-box img {
+    width: 40px;
+    height: 40px;
+}
+
+.user-apps-box a {
+    overflow: hidden;
+    padding-left: 14px;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+
+.user-apps-box li {
+    float: left;
+}
+
+.user-qr-code {
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    background: #f4f4f4;
+    display: none;
+    position: absolute;
+    bottom: 60px;
+}
+
+.user-qr-code img {
+    margin-top: 5px;
+    height: 70px;
+    width: 70px;
+}
+
+#qrcode-5 {
+    right: 0px;
+}
+
+#qrcode-4 {
+    right: 55px;
+}
+
+#qrcode-3 {
+    right: 110px;
+}
+
+#qrcode-2 {
+    right: 165px;
+}
+
+#qrcode-1 {
+    right: 220px;
+}
+
+
+/* 背景 */
+
+.tb-bg5-box {
+    width: 100%;
+    height: 1380px;
+}
+
+.tb-bg5 {
+    margin: 0 auto;
+    width: 1190px;
+    height: 1000px;
+}
+
+
+/*footer*/
+
+.footer {
+    width: 1190px;
+    height: 150px;
+    margin: 0 auto 10px auto;
+}
+
+
+/*footer-left*/
+
+.footer-left {
+    float: left;
+    width: 94%;
+    height: 100%;
+}
+
+
+/*tao-man*/
+
+/* .tao-man {
+    float: right;
+}
+ */
+
+/*footer-nav*/
+
+.footer-nav {
+    width: 100%;
+    height: 70px;
+    line-height: 35px;
+    border-bottom: 1px solid #ddd;
+    color: #dedede;
+}
+
+.footer-nav>a {
+    margin: 0 3px;
+}
+
+
+/*about-tao*/
+
+.about-tao {
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+}
+
+.final {
+    margin-top: 10px;
+}
+
+
+/* 滑动搜索栏 */
+
+.scroll-search {
+    width: 100%;
+    height: 54px;
+    background: #fff;
+    display: none;
+    position: fixed;
+    top: 35px;
+    z-index: 9999;
+}
+
+.search-litter {
+    width: 1190px;
+    height: 54px;
+    margin: 0 auto;
+}
+
+
+/* logo */
+
+.scroll-logo {
+    height: 40px;
+    margin-top: 5px;
+    float: left;
+}
